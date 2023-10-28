@@ -1,0 +1,347 @@
+body{
+    margin: 0 auto;
+    width: 1440px;
+    font-family: 'Playfair Display', serif;
+    background-color: #121212;
+    color: #FFAB4B;
+}
+
+h2{
+    font-size: 48px;
+    font-weight: 700;
+    font-style: normal;
+}
+
+h3{
+    font-size: 36px;
+    margin: 18px 0;
+}
+
+.firstscreen{
+    height: 940px;
+}
+
+.fs_content{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    bottom: 7px;
+}
+
+.flagblock{
+    width: 605px;
+}
+
+.flagblock > img:last-of-type{
+    position: relative;
+    margin: 0 auto;
+    left: 165px;
+    bottom: 430px;
+}
+
+.flagblock > h1:first-of-type{
+    font-size: 100px;
+    position: absolute;
+    left: 480px;
+}
+
+.flagblock > h1:last-of-type{
+    font-size: 112px;
+    position: absolute;
+    left: 480px;
+    top: 75px;
+}
+
+.fs_cl1 > h2, .fs_cl2 > h2{
+    position: absolute;
+    top: 35px;
+}
+
+.fs_cl1 > h2{
+    left: 122px;
+}
+
+.fs_cl2 > h2{
+    left: 1187px;
+}
+
+.secondscreen{
+    position: relative;
+    bottom: 3px;
+}
+
+.aboutfont{
+    width: 423px;
+    margin: 52px auto;
+}
+
+.aboutfont > img{
+    position: relative;
+}
+
+.aboutfont > h2{
+    position: absolute;
+    margin: 85px;
+}
+
+.ss_content{
+    display: flex;
+    position: relative;
+    justify-content: space-evenly;
+    align-items: flex-end;
+}
+
+.table_content{
+    width: 824px;
+}
+
+.table_content > h2{
+    text-align: center;
+    width: 665px;
+    position: absolute;
+    margin: 125px 85px;
+}
+
+.thirdscreen{
+    position: relative;
+    bottom: 6px;
+}
+
+.ts-content{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 34px 0;
+}
+
+.table3 > h2{
+    position: absolute;
+    width: 400px;
+    margin: 195px 80px;
+    text-align: center;
+}
+
+.booktext{
+    position: absolute;
+    margin-top: 12px;
+}
+.booktext > h2:first-child{
+    font-size: 39px;
+    margin: 350px 158px 0;
+}
+
+.booktext > h2:last-child{
+    font-size: 38px;
+    margin: 0 158px;
+}
+
+.fos_content{
+    display: flex;
+    justify-content: center;
+    height: 850px;
+    align-items: center;
+}
+
+.font_styles{
+    display: flex;
+    height: 250px;
+    align-items: center;
+}
+
+.font_styles > h2{
+    position: absolute;
+    margin: 87px 69px;
+}
+
+.fs_normal, .fs_italic{
+    position: absolute;
+    text-align: center;
+}
+
+.fs_italic{
+    margin: 75px 175px;
+}
+
+.fs_normal{ 
+    margin: 75px 125px;
+    font-style: normal;
+}
+
+.fs_italic{
+    margin: 75px 175px;
+    font-style: italic;
+}
+
+.fs_normal > h3:nth-child(1){
+    font-weight: 400;
+}
+
+.fs_normal > h3:nth-child(2){
+    font-weight: 500;
+}
+
+.fs_normal > h3:nth-child(3){
+    font-weight: 600;
+}
+
+.fs_normal > h3:nth-child(4){
+    font-weight: 700;
+}
+
+.fs_normal > h3:nth-child(5){
+    font-weight: 800;
+}
+
+.fs_normal > h3:nth-child(6){
+    font-weight: 900;
+}
+
+.fs_italic > h3:nth-child(1){
+    font-weight: 400;
+}
+
+.fs_italic > h3:nth-child(2){
+    font-weight: 500;
+}
+
+.fs_italic > h3:nth-child(3){
+    font-weight: 600;
+}
+
+.fs_italic > h3:nth-child(4){
+    font-weight: 700;
+}
+
+.fs_italic > h3:nth-child(5){
+    font-weight: 800;
+}
+
+.fs_italic > h3:nth-child(6){
+    font-weight: 900;
+}
+
+.svitok1, .svitok2{
+    height: 578px;
+}
+
+.fi_content{
+    width: 1371px;
+    margin: 31px auto;
+}
+
+.table6{
+    width: 423px;
+    margin: 40px auto;
+}
+
+.table6 > h2{
+    position: absolute;
+    margin: 85px 130px;
+}
+
+.glyphs{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.glyphs1_letters, .glyphs2_letters, .glyphs3_letters, .g3l_numb, .g3l_gl{
+    display: flex;
+    flex-direction: row;
+    gap: 2px;
+    flex-wrap: wrap;
+    position: absolute;
+}
+
+.glyphs1_letters{
+    width: 182px;
+    margin: 75px 60px;
+}
+
+.glyphs2_letters{
+    width: 188px;
+    margin: 120px 60px;
+}
+
+.glyphs3_letters{
+    width: 200px;
+    margin-top: 5px;
+}
+
+.g3l_numb{
+    width: 170px;
+    margin: 60px;
+}
+.g3l_gl{
+    width: 180px;
+    margin: 170px 60px;
+}
+
+.glyphs1_letters > h3, .glyphs2_letters > h3, .g3l_numb > h3, .g3l_gl > h3{
+    margin: 0;
+}
+
+.seventhscreen{
+    position: relative;
+    bottom: 7px;
+}
+
+.se_content{
+    display: flex;
+}
+
+.se_content > img{
+    display: inline-block;
+}
+
+.table7{
+    position: absolute;
+    top: 300px;
+    left: 850px;
+}
+
+.table7 > h1{
+    width: 220px;
+    font-size: 60px;
+    position: absolute;
+    margin: 120px 160px;
+    line-height: 60px;
+}
+
+.eighthscreen{
+    position: relative;
+    bottom: 35px
+}
+
+.e_content{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 103px 0;
+}
+
+.helmetfront > h1{
+    position: absolute;
+    margin: 220px 170px;
+    font-size: 42px;
+}
+
+.helmetback > h1{
+    position: absolute;
+    margin: 220px 185px;
+    width: 350px;
+    font-size: 42px;
+    text-align: center;
+}
+
+footer{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.footertext > h1{
+    font-size: 36px;
+}
+
+footer > img{
+    margin-bottom: 25px;
+}
